@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Assignment 1:
+HTML: "a1html.html"
+CSS: "a1style.css"
+JavaScript: "a1event.js"
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Home |wlionhart</title>
+    <link href="styles/a1style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="actions/a1action.js"></script>
+    <nav>
+      <div class="tnav" id="mtnav">
+        <a href="index.html" class="active">wlionhart</a>
+        <a class="nlink" href="overview.html">Overview</a>
+        <a class="nlink" href="gallery.html">Gallery</a>
+        <a class="nlink" href="instructions.html">Instructions</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <h1>About Me</h1>
+    <main>
+      <section id="one">
+        <figure id="frame">
+          <img id="mypic" src="images/mypic.jpg" alt="mypic"
+          title="mypic"/>
+        </figure>
+      </section>
+      <section id="two">
+        <div class="two">
+          <p><strong><em>Greetings Earthling,</em></strong></p>
+          <p>My name is <strong>William Lionhart</strong>. I chose to     take CMPT165 with the purpose of two goals: <em>(1)</em> to fulfill my B-Sci requirements in the Political Science program; and, <em>(2)</em> to create a personal portfolio website as a digital résumé.</p>
+          <p>For this assignment, I shall be creating <u>four</u> pages:</p>
+        </div>
+        <div id="pg1ol">
+          <ol>
+            <li>An <var>introductory</var> page you are currently viewing.</li>
+            <li>An <var>overview</var> of the project in question.</li>
+            <li>A <var>photo gallery</var> showing the project highlights.</li>
+            <li>A set of <var>instructions</var> to complete the project.</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+    <audio controls>
+	    <source src="RickRolled.mp3" type ="audio/mpeg">
+    </audio>
+    <footer>
+      &copy;2018 wlionhart LLC All rights reserved.
+    </footer>
+  </body>
+</html>
